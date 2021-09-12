@@ -49,7 +49,7 @@ _asm.write_memory(address: Long, data: T)
 > The supported types are bytearray, short, int, float, double, **boolean**, string, char.
 
 ### 🔌 Close
-To prevent memory leaks, close the handle using the ```close``` function when work is done
+To prevent memory leaks, close the handle using the ```close``` function when work is done.
 ```kotlin
 _asm.close()
 ```
