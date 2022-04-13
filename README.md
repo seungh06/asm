@@ -12,7 +12,7 @@ val handle = _asm.process.handle
 ```kotlin
 val permission = asm.permission.process_all_access
 
-val pid = asm.get_process_id(taget: String): Int
+val pid = asm.get_process_id(target: String): Int
 val handle = asm.open_process(permission: Int, process_id: Int): HANDLE
 ```
 
